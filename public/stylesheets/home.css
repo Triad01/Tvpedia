@@ -77,3 +77,11 @@ footer {
   overflow: hidden;
   padding: 20px;
 }
+
+@media only screen and (max-width: 500px) {
+  
+  .input-group{
+    width:250px;
+  }
+
+}
