@@ -14,7 +14,7 @@ app.engine("ejs", ejsMate);
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-app.get("/search", (req, res) => {
+app.get("/", (req, res) => {
   res.render("home");
 });
 
