@@ -1,0 +1,16 @@
+<% layout('/layouts/boilerplate') -%>
+
+<div class="row">
+  <div class="col-6 offset-3 my-5">
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <%=err.message%>
+      <p>Movie not found...pls try another search query 😣</p>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
+    </div>
+  </div>
+</div>

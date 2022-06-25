@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/c732cb00-be61-4d64-b8c3-99f022e7a123/8af3fce9-14f2-4fda-a923-1e8e4aa2e38b/NG-en-20220620-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.logo {
+  color: white;
+  font-weight: 400;
+  font-size: 2em;
+}
+.main-nav .btn {
+  padding: 10px;
+  width: 100px;
+  color: white;
+  font-size: 20px;
+}
+.header-text {
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+.header-text > h1 {
+  font-size: 2rem;
+  animation: 'slide 2s ease-in 1s infinite reverse both running';
+}
+
+.header-text-flex {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-text p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.input-group {
+  width: 400px;
+  height: 50px;
+}
+.input-group-text {
+  background-color: blue;
+  color: white;
+}
+
+.section--1 {
+  height: 300px;
+  width: 100%;
+  display: flex;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  padding: 20px;
+}
